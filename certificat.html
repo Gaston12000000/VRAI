@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificat de Réussite — YouTube Business 360° | Gaston N3</title>
+  <meta name="description" content="Certificat officiel attestant de la maîtrise du programme YouTube Business 360° par Gaston N3.">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+  <style>
+    /* Design spécifique du certificat officiel */
+    .certificate-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #0A0D14;
+      border: 8px double rgba(255, 184, 0, 0.4);
+      border-radius: var(--radius-lg);
+      padding: 60px 50px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(255, 184, 0, 0.1);
+    }
+
+    .cert-badge {
+      width: 76px;
+      height: 76px;
+      background: linear-gradient(135deg, #FFB800 0%, #B8860B 100%);
+      border-radius: 50%;
+      margin: 0 auto 20px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2rem;
+      color: #07080B;
+      box-shadow: 0 0 25px rgba(255, 184, 0, 0.5);
+    }
+
+    .cert-student-name {
+      font-family: var(--font-heading);
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      border-bottom: 2px solid var(--border-medium);
+      display: inline-block;
+      min-width: 320px;
+      padding-bottom: 8px;
+      margin: 24px 0;
+      outline: none;
+    }
+
+    .cert-student-name:focus {
+      border-color: var(--yt-red);
+    }
+
+    .cert-signatures {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      margin-top: 60px;
+      padding-top: 30px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .signature-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .signature-sig {
+      font-family: 'Brush Script MT', cursive, sans-serif;
+      font-size: 2rem;
+      color: var(--yt-red);
+      margin-bottom: 6px;
+    }
+
+    @media print {
+      body * {
+        visibility: hidden;
+      }
+      .certificate-container, .certificate-container * {
+        visibility: visible;
+      }
+      .certificate-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        max-width: 100%;
+        border: 4px double #000;
+        color: #000 !important;
+        background: #FFF !important;
+        box-shadow: none;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="navbar no-print">
+    <div class="container navbar-container">
+      <a href="../index.html" class="navbar-brand">
+        <div class="brand-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">YOUTUBE BUSINESS <span>360°</span></span>
+          <span class="brand-author">Attestation Officielle</span>
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="../index.html" class="nav-link">Accueil</a>
+        <a href="formation.html" class="nav-link">Formation</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <a href="certificat.html" class="nav-link active">Certificat</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm" onclick="window.print()">🖨️ Imprimer le certificat</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section" style="padding-top: calc(var(--header-height) + 40px);">
+    <div class="container">
+      <div class="no-print" style="text-align: center; margin-bottom: 30px;">
+        <p style="color: var(--text-secondary); font-size: 0.95rem;">
+          Cliquez sur votre nom ci-dessous pour le personnaliser, puis cliquez sur <strong>Imprimer</strong>.
+        </p>
+      </div>
+
+      <!-- CERTIFICAT DE RÉUSSITE -->
+      <div class="certificate-container">
+        <div class="cert-badge">★</div>
+        <div style="font-family: var(--font-heading); font-size: 1rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent-gold); margin-bottom: 8px;">
+          CERTIFICAT D'ACCOMPLISSEMENT OFFICIEL
+        </div>
+        <h1 style="font-family: var(--font-heading); font-size: 2.8rem; font-weight: 900; color: #FFFFFF; margin-bottom: 12px;">
+          YOUTUBE BUSINESS 360°
+        </h1>
+        <div style="font-size: 1.1rem; color: var(--yt-red); font-weight: 700; margin-bottom: 24px;">
+          De Zéro à YouTubeur Rentable
+        </div>
+
+        <p style="font-size: 1rem; color: var(--text-secondary); max-width: 580px; margin: 0 auto;">
+          Ce certificat est fièrement décerné pour attester de la validation complète du programme d'ingénierie YouTube, d'optimisation du clic et de modélisation de business digital à :
+        </p>
+
+        <div class="cert-student-name" contenteditable="true" title="Cliquez pour modifier votre nom">
+          Alexandre V.
+        </div>
+
+        <p style="font-size: 0.92rem; color: var(--text-muted); max-width: 520px; margin: 0 auto 30px auto;">
+          Ayant complété avec succès les 24 modules, les 40 exercices pratiques et respecté les standards d'intégrité algorithmique de la méthode.
+        </p>
+
+        <div class="cert-signatures">
+          <div class="signature-block">
+            <div class="signature-sig">Gaston N3</div>
+            <div style="font-family: var(--font-heading); font-weight: 700; font-size: 0.9rem; color: #FFFFFF;">GASTON N3</div>
+            <div style="font-size: 0.76rem; color: var(--text-muted);">Auteur & Directeur Pédagogique</div>
+          </div>
+
+          <div class="signature-block">
+            <div style="font-size: 1.1rem; color: var(--accent-cyan); font-weight: 700; margin-bottom: 6px;">
+              <script>document.write(new Date().toLocaleDateString('fr-FR'));</script>
+            </div>
+            <div style="font-family: var(--font-heading); font-weight: 700; font-size: 0.9rem; color: #FFFFFF;">DATE DE DÉLIVRANCE</div>
+            <div style="font-size: 0.76rem; color: var(--text-muted);">Identifiant : #YTB-360-9842</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer no-print">
+    <div class="container footer-bottom">
+      <div>© 2026 YouTube Business 360° — Gaston N3. Tous droits réservés.</div>
+      <div>CAS FICTIF / SIMULATION PÉDAGOGIQUE</div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
